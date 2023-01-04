@@ -15,8 +15,9 @@ def main(s):
     if len(s) % 2 == 0:
         ans += s[jft1]
         ans += s[jft2]
-
+    else:
+        ans += s[round(len(s)/2)]
     return ans
 
 
-print(main('assf'))
+print(main('asbsf'))
