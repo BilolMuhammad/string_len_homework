@@ -8,4 +8,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    if len(s) == 3:
+        return s[0] == s[2]
+
+
+print(main('fs'))
