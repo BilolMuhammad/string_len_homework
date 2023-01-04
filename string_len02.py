@@ -6,4 +6,10 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    l = len(a)
+    return l % 2 == 0
+
+
+print(main('asdfg'))
+print(main('dsdsdd'))
+print(main(''))
