@@ -8,4 +8,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    if len(s) % 2 == 0:
+        return len(s)//2
+
+
+print(main('fsdfsfkjgh'))
