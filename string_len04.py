@@ -6,4 +6,8 @@ def main(s):
     Returns:
         string
     """
-    return
+    return '*'*len(s)
+
+
+print(main('sdsf'))
+print(main('s234dsf'))
