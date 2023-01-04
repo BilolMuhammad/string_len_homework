@@ -17,4 +17,4 @@ def main(num1, num2):
         return 'Please,enter non-negative integers,represented as string'
 
 
-print(main('12', '54'))
+print(main('72', '54'))
